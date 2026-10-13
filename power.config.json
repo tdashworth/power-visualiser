@@ -1,0 +1,59 @@
+{
+  "version": "1.0",
+  "appId": "cb5ec7c5-e713-4b3d-a99c-80298dbaee09",
+  "appDisplayName": "Power Visualiser",
+  "region": "prod",
+  "appType": "CodeApp",
+  "environmentId": "ddd86b56-ad24-efdb-b269-718fd6a03ca2",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {},
+  "databaseReferences": {
+    "default.cds": {
+      "dataSources": {
+        "publishers": {
+          "entitySetName": "publishers",
+          "logicalName": "publisher"
+        },
+        "solutions": {
+          "entitySetName": "solutions",
+          "logicalName": "solution"
+        },
+        "environment_39a902ba": {
+          "entitySetName": "Environment",
+          "logicalName": "environment_39a902ba",
+          "isHidden": false
+        },
+        "processes": {
+          "entitySetName": "workflows",
+          "logicalName": "workflow",
+          "isHidden": false
+        },
+        "sdkmessages": {
+          "entitySetName": "sdkmessages",
+          "logicalName": "sdkmessage",
+          "isHidden": false
+        },
+        "sdkmessageprocessingsteps": {
+          "entitySetName": "sdkmessageprocessingsteps",
+          "logicalName": "sdkmessageprocessingstep",
+          "isHidden": false
+        },
+        "customapis": {
+          "entitySetName": "customapis",
+          "logicalName": "customapi",
+          "isHidden": false
+        },
+        "sdkmessagefilters": {
+          "entitySetName": "sdkmessagefilters",
+          "logicalName": "sdkmessagefilter",
+          "isHidden": false
+        }
+      },
+      "environmentVariableName": ""
+    }
+  }
+}
